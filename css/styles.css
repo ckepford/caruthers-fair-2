@@ -18,6 +18,12 @@
   font-family: 'Source Serif Pro', serif;
   text-shadow: 1px 1px black;
 }
+.navbar-default .navbar-nav>li>a {
+  color: rgba(9, 92, 194, 0.76);
+  font-size: 1.2em;
+}
+
+
 /*END NAVBAR*/
 
 /*FAIR TITLE AND DATE*/
@@ -44,13 +50,14 @@ hr {
 
 /*BUTTONS FOR TICKETS AND INFO*/
 .button {
-  background-color: rgba(64, 136, 197, 0.75);
+  background-color: lightgrey;
   font-family: sans-serif;
   font-size: 2em;
-  color: white;
+  color: rgba(9, 92, 194, 0.76);
   text-shadow: 1px 1px darkslategrey;
-  border: 1px solid rgba(9, 92, 194, 0.76);
+  /*border: 1px solid slategrey;*/
   margin-bottom: 5%;
+  box-shadow: 1px 1px 5px grey;
 }
 
 .caret {
@@ -118,26 +125,93 @@ hr {
 }
 /*END COLUMN CONTENT */
 
+/*FAIR THEME*/
 .fair-theme  {
   color: white;
   border: 1px solid rgba(9, 92, 194, 0.76);
-  background-color: rgba(64, 136, 197, 0.75);
-  margin: 2% 0 2% 0;
-  height: 10em;
+  background-color: rgba(9, 92, 194, 0.76);
+  /*margin: 2% 0 2% 0;*/
+  height: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .fair-theme h3 {
   font-size: 3em;
-  text-shadow: 1px 1px darkslategrey;
+  text-shadow: 2px 2px black;
 }
 .fair-theme h5 {
   font-size: 1.75em;
-  text-shadow: 1px 1px darkslategrey;
+  text-shadow: 2px 1px darkslategrey;
 }
-/*FOOTER*/
 
+.fair-theme hr {
+  max-width: 85px;
+  border-color: white;
+  margin-top: 0;
+  border-width: 2px;
+}
+/* END FAIR THEME*/
+
+/*FOOTER*/
 .footer-col {
-  border-right: 1px solid grey;
-  height: 400px;
+  height: 200px;
   background-color: lightgrey;
+  padding-top: 2%;
+}
+
+.footer-social {
+  font-size: 30px;
 }
 /*END FOOTER*/
+
+/*ENTERTAINMENT*/
+.mainstage-sched h2, .backstage-sched h2 {
+  color: rgba(9, 92, 194, 0.76);
+  text-shadow: 1px 1px darkslategrey;
+}
+.mainstage-sched hr, .backstage-sched hr {
+  max-width: 475px;
+  border-color: grey;
+  margin-top: 0;
+  border-width: 2px;
+}
+ .mainstage-sched h4, .backstage-sched h4 {
+   margin: 0;
+   margin-bottom: -10px;
+ }
+
+ .stage-sched {
+   margin-bottom: 2%;
+ }
+/*END ENTERTAINMENT*/
+
+/*MOTORCYCLE PAGE*/
+.motorcycle h3, .motorcycle h4 {
+  color: rgba(9, 92, 194, 0.76);
+  text-shadow: 1px 1px darkslategrey;
+}
+
+.motorcycle-par {
+  margin-top: -63%;
+}
+
+.grey-hr {
+  max-width: 525px;
+  border-color: grey;
+  margin-top: 5%;
+  border-width: 2px;
+}
+
+.fresno-link {
+  font-size: 1.5em;
+  margin-bottom: 5%;
+}
+/*END MOTORCYCLE PAGE*/
+
+/* ANIMAL PAGE*/
+.pdf-col {
+  margin-bottom: 5%;
+}
+/*END ANIMAL PAGE*/
