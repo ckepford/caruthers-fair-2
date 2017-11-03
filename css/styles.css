@@ -2,6 +2,8 @@
 
 * {
   font-family: 'Open Sans', sans-serif;
+}
+p, ul {
   line-height: 1.9em;
 }
 
