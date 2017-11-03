@@ -2,6 +2,7 @@
 
 * {
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.9em;
 }
 
 /*NAVBAR*/
@@ -33,8 +34,8 @@
 }
 
 .fair-date {
-  color: orange;
-  font-size: 1.75em;
+  color: red;
+  font-size: 1.4em;
   text-shadow: 1px 1px darkslategrey;
 }
 
@@ -53,7 +54,7 @@ hr {
   font-size: 2em;
   color: rgba(9, 92, 194, 0.76);
   text-shadow: 1px 1px darkslategrey;
-  /*border: 1px solid slategrey;*/
+  margin-top: 5%;
   margin-bottom: 5%;
   box-shadow: 1px 1px 5px grey;
 }
@@ -111,7 +112,7 @@ hr {
 
 .col-title {
   color: white;
-  font-size: 3em;
+  font-size: 2.75em;
   text-shadow: 3px 3px black;
 }
 
@@ -125,14 +126,15 @@ hr {
 
 /*FAIR THEME*/
 .fair-theme  {
-  color: white;
-  border: 1px solid rgba(9, 92, 194, 0.76);
-  background-color: rgba(9, 92, 194, 0.76);
+  color: rgba(9, 92, 194, 0.76);
+  border: 1px solid darkgrey;
+  background-color: lightgrey;
   /*margin: 2% 0 2% 0;*/
   height: 15em;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  order-bottom: 1px solid grey;
 
 }
 .fair-theme h3 {
@@ -170,7 +172,7 @@ hr {
 /*END FOOTER*/
 
 /*ENTERTAINMENT PAGE*/
-.mainstage-sched h2, .backstage-sched h2 {
+.mainstage-sched h3, .backstage-sched h3 {
   color: rgba(9, 92, 194, 0.76);
   text-shadow: 1px 1px darkslategrey;
 }
