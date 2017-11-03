@@ -22,8 +22,6 @@
   color: rgba(9, 92, 194, 0.76);
   font-size: 1.2em;
 }
-
-
 /*END NAVBAR*/
 
 /*FAIR TITLE AND DATE*/
@@ -164,9 +162,14 @@ hr {
 .footer-social {
   font-size: 30px;
 }
+
+.copy-row {
+  background-color: lightgrey;
+  padding-bottom: 3%;
+}
 /*END FOOTER*/
 
-/*ENTERTAINMENT*/
+/*ENTERTAINMENT PAGE*/
 .mainstage-sched h2, .backstage-sched h2 {
   color: rgba(9, 92, 194, 0.76);
   text-shadow: 1px 1px darkslategrey;
@@ -185,7 +188,7 @@ hr {
  .stage-sched {
    margin-bottom: 2%;
  }
-/*END ENTERTAINMENT*/
+/*END ENTERTAINMENT PAGE*/
 
 /*MOTORCYCLE PAGE*/
 .motorcycle h3, .motorcycle h4 {
@@ -215,3 +218,14 @@ hr {
   margin-bottom: 5%;
 }
 /*END ANIMAL PAGE*/
+
+/*QUEEN AND GRAND MARSHALL PAGE*/
+.content-row {
+  margin-bottom: 10%;
+}
+
+.content-row h3 {
+  color: rgba(9, 92, 194, 0.76);
+  text-shadow: 1px 1px darkslategrey;
+}
+/* END QUEEN AND GRAND MARSHALL PAGE*/
