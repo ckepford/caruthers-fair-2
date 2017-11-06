@@ -7,11 +7,22 @@ p, ul {
   line-height: 1.9em;
 }
 
+.background {
+  background-image: url('../images/caruthers-zipper-opacity.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 /*NAVBAR*/
 .navbar-brand>img {
     display: block;
     height: 2em;
     width: 3em;
+}
+
+.navbar-default {
+  margin-bottom: 0;
 }
 
 .navbar-default .navbar-brand {
@@ -130,7 +141,7 @@ hr {
 .fair-theme  {
   color: rgba(9, 92, 194, 0.76);
   border: 1px solid darkgrey;
-  background-color: lightgrey;
+  /*background-color: lightgrey;*/
   /*margin: 2% 0 2% 0;*/
   height: 15em;
   display: flex;
